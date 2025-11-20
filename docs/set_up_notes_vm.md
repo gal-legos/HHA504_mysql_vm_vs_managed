@@ -18,7 +18,7 @@
 - Allow HTTP and HTTPS from networking rules 
 <img src="/screenshots/vm_demo/network_rules_vm.png" alt="network_rules_1" width="350">
 
-###### This will be done during the creation of the Virtual machine and lives in the 'Networking' tab on the left sandwiched between 'Data Protection' and 'Observability'. This is the networking rules after the VM was launched but very easy to find and change if needed. 
+###### This will be done during the creation of the Virtual machine and lives in the 'Networking' tab on the left, sandwiched between 'Data Protection' and 'Observability'. These are the networking rules after the VM was launched, but very easy to find and change if needed.
 
 - Finished/running Virtual Machine 
 <img src="screenshots/vm_demo/vm_running.png" alt="running" width="350">
@@ -49,7 +49,7 @@ sudo apt install mysql-server mysql-client nano -y
 
 <img src="/screenshots/vm_demo/install_sql_nano.png" alt="install_vm" width="350">
 
-###### Used to install packages into the SSH terminal that will be used for the assingment. Nano was included in this installation to troubleshoot a previous configuration issue that I ran into
+###### Used to install packages into the SSH terminal that will be used for the assignment. Nano was included in this installation to troubleshoot a previous configuration issue that I ran into
 
 
 
@@ -57,7 +57,7 @@ sudo systemctl status mysql
 
 <img src="/screenshots/vm_demo/system_check.png" alt="systemcheck_vm" width="350">
 
-###### Using this command allows us to know if our sql server is active within the SSH Terminal 
+###### Using this command allows us to know if our SQL Server is active within the SSH Terminal
 
 
 
@@ -65,7 +65,7 @@ sudo systemctl restart mysql
 
 <img src="/screenshots/vm_demo/system_check.png" alt="restart_sql" width="350">
 
-###### Use this to restart mysql (NOTE: use this after changinf the bind address to 0.0.0.0)
+###### Use this to restart MySQL (NOTE: use this after changing the bind address to 0.0.0.0)
 
 
 
@@ -73,7 +73,7 @@ mysql --version
 
 <img src="/screenshots/vm_demo/sql_version_check.png" alt="version_vm" width="350">
 
-###### Used to find what version of sql we are running in the terminal
+###### Used to find what version of SQL we are running in the terminal
 
 
 
@@ -81,7 +81,7 @@ mysql -u 'user' -p
 
 <img src="/screenshots/vm_demo/testing_connection.png" alt="test_post_restart_vm" width="350">
 
-###### Tests the connection using our user and pasword combination (NOTE: run this command after you finish setting up your SQL server with since this requires a user and password)
+###### Tests the connection using our user and password combination (NOTE: run this command after you finish setting up your SQL server with since this requires a user and password)
 
 
 
