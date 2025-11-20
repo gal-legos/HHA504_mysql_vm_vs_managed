@@ -14,7 +14,7 @@ Both the VM and Managed Service were in the us-central1 (Iowa) region with the V
 ## Steps to Reproduce Managed Service
 - Create a MySQL instance in Cloud SQL
    - Create the lowest cost server by customizing
-   <img src="/screenshots/managed_demo/cost_managed.png" alt="cost" width="200">
+   <img src="/screenshots/managed_demo/cost_managed.png" alt="cost" width="300">
 - Create a User and a password needed for the Python script
 - Create a database with the SQL Editor
 - Grant user access
