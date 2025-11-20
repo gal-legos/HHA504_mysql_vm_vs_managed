@@ -1,13 +1,2 @@
 # VM vs Managed MySQL – Comparison
-
-(Write 200–400 words)
-
-- Time to first query
-- Difficulty
-- Networking differences
-- Security
-- Operational overhead
-- Which one you’d use for:
-  - small student app
-  - departmental analytics
-  - HIPAA-aligned workload
+Having worked with both a Virtual Machine (VM) and the Managed Service in Google Cloud Platform (GCP), I personally prefer the Managed Service. While both options have their strengths and can be better suited for different project types, the Managed Service stood out to me for its simplicity and ease of use. In terms of setup time, I struggled much more with provisioning the VM instance. I ran into an issue trying to change the bind address through GCP’s SSH terminal, and that alone added almost 20 minutes of troubleshooting. By contrast, the Managed Service felt very straightforward and required no extra problem-solving. Aside from the smooth setup, I liked that the Managed Service let me edit configurations even after launching it, which is really convenient when you need to adjust settings like IP filters or backup options. Another key difference I noticed was how flexible the Managed Service was; you can make SQL Server changes directly through the Google interface or through Cloud Shell, whereas the VM limits you to the SSH terminal. I also really appreciated the SQL Editor because it let me save queries and create user accounts without constantly retyping commands or dealing with potential terminal mistakes. When it comes to choosing between the two, I would use the Managed Service for a small student application, and I’d rely on the VM for any HIPAA-aligned workloads. The departmental analytics database could realistically use either option. The Managed Service’s simplicity makes it great for school projects, personal applications, or interdepartmental analytics, especially in environments where users have varying levels of technical experience. On the other hand, the VM’s privacy and security controls make it a better fit for HIPAA-related work, since it feels like it has more safeguards in place for protecting sensitive patient data. Overall, both have their place, but it just depends on the needs and priorities of the project.
