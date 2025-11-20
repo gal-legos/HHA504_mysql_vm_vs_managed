@@ -21,7 +21,7 @@
 ###### This will be done during the creation of the Virtual machine and lives in the 'Networking' tab on the left, sandwiched between 'Data Protection' and 'Observability'. These are the networking rules after the VM was launched, but very easy to find and change if needed.
 
 - Finished/running Virtual Machine 
-<img src="screenshots/vm_demo/vm_running.png" alt="running" width="350">
+<img src="/screenshots/vm_demo/vm_running.png" alt="running" width="350">
 
 
 
