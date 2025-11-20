@@ -38,54 +38,80 @@
 
 ## 3. Commands Used Within the SSH Terminal 
 sudo apt update
+
 <img src="/screenshots/vm_demo/sudo_update.png" alt="update_vm" width="350">
 
 ###### Updates the SSH operating system 
 
+
+
 sudo apt install mysql-server mysql-client nano -y
+
 <img src="/screenshots/vm_demo/install_sql_nano.png" alt="install_vm" width="350">
 
 ###### Used to install packages into the SSH terminal that will be used for the assingment. Nano was included in this installation to troubleshoot a previous configuration issue that I ran into
 
+
+
 sudo systemctl status mysql
+
 <img src="/screenshots/vm_demo/system_check.png" alt="systemcheck_vm" width="350">
 
 ###### Using this command allows us to know if our sql server is active within the SSH Terminal 
 
+
+
 sudo systemctl restart mysql 
+
 <img src="/screenshots/vm_demo/system_check.png" alt="restart_sql" width="350">
 
 ###### Use this to restart mysql (NOTE: use this after changinf the bind address to 0.0.0.0)
 
+
+
 mysql --version 
+
 <img src="/screenshots/vm_demo/sql_version_check.png" alt="version_vm" width="350">
 
 ###### Used to find what version of sql we are running in the terminal
 
+
+
 mysql -u 'user' -p 
+
 <img src="/screenshots/vm_demo/testing_connection.png" alt="test_post_restart_vm" width="350">
 
 ###### Tests the connection using our user and pasword combination (NOTE: run this command after you finish setting up your SQL server with since this requires a user and password)
 
+
+
 SQL QUERY: CREATE DATABASE
 'CREATE DATABASE test_db'
+
 <img src="/screenshots/vm_demo/dba_creation.png" alt="database_create_vm" width="350">
 
 ###### Used to create a specific database 
 
 SQL QUERY: CREATE USER 
 'CREATE USER 'user'@'%' IDENTIFIED BY 'StrongPass123!';'
+
 <img src="/screenshots/vm_demo/create_user_vm.png" alt="create_user_vm" width="350">
 
 ###### Used to create a new user
 
+
+
 SQL QUERY: GRANT
 'GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;'
+
 <img src="/screenshots/vm_demo/grants_ssh_vm.png" alt="grant_user_vm" width="350">
 
 ###### used to grant access to users 
 
+
+
 SQL query: SHOW DATABASES
+
 <img src="/screenshots/vm_demo/show_databases_vm.png" alt="database_show_vm" width="350">
 
 ###### Shows all the databases that live in the sql server

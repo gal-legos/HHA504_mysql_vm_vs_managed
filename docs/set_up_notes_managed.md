@@ -5,7 +5,7 @@
 - Tier: Enterprise 
     - DB Version: MySQL 8.0
     - vCPU/RAM: 2vCPU/ 8 GB
-<img src="/screenshots/managed_demo/enterprise_selection_setup.png" alt="engine_version" width="300">  
+<img src="/screenshots/managed_demo/enterprise_selection_setup.png" alt="engine_version" width="350">  
 <img src="/screenshots/managed_demo/mysql_instance_info_setup.png" alt="instance_info" width="350"> 
 <img src="/screenshots/managed_demo/machine_config_setup.png" alt="vcpu_info" width="350"> 
 
