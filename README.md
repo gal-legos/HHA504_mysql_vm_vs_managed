@@ -52,7 +52,7 @@ mysql+pymysql://USER:PASS@HOST:PORT/DBNAME
 
 
 ## Screenshots
-
+Screenshots can be found in their respective files under the 'screenshots' folder and in the setup notes for each of the GCP systems. 
 
 ## Video Repo Tour and Script Run
 Video Link (https://www.loom.com/share/64813ed0095f4bea8428bf0336dbcb0c)
